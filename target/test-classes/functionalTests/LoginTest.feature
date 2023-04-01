@@ -8,11 +8,11 @@ Feature: feature to test login functionality
     Then user is navigated to the home page
 
   Scenario: Login test with invalid credential password
-    When user enters username<"Admin"> and password<"admin1234">
+    When user enters username<"Admin"> and password<"admin123">
     And click on login button
     Then user is navigated to the home page
 
   Scenario: Login test with valid credential username
-    When user enters username<"Admin1"> and password<"admin123">
+    When user enters username<"Admin"> and password<"admin123">
     And click on login button
     Then user is navigated to the home page
